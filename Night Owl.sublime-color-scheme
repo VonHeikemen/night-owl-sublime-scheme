@@ -1,0 +1,445 @@
+{
+  "name": "Night owl",
+  "author": "Heiker (https://github.com/VonHeikemen)",
+  "comment": "A port of Sarah Drasner's Night Owl VSCode theme",
+  "variables": {
+    // Base colors
+    "black": "#011627",
+    "white": "#D6DEEB",
+    "blue": "#82AAFF",
+    "red": "#FF6363",
+    "yellow": "#ECC48DFF",
+    "magenta": "#C792EA",
+    "gray": "#637777",
+
+    // Commonly used
+    "light_cyan": "#7FDBCA",
+    "yellow_ish": "#FAD430",
+    "orange_ish": "#F78C6C",
+    "greenish_yellow": "#ADDB67",
+
+    // Rarely used
+    "darkness": "#000",
+    "light": "#FFF",
+    "pale_yellow": "#FFEB95",
+    "sad_cyan": "#80CBC4",
+    "dark_blue": "#011220",
+    "light_blue": "#80A4C2",
+    "sad_blue": "#1D3B53",
+    "cold_blue": "#5F7E97",
+    "fuchsia_blue": "#7E57C25A",
+    "live_blue": "#82B1FF",
+    "bluish_grey": "#697098",
+    "wild_pink": "#FF2C83",
+    "pink": "#FF869A",
+    "peach_orange": "#FFCB8B",
+
+    // UI: Gutter
+    "git_green": "#9CCC65",
+    "git_orange": "#E2B93D",
+    "git_red": "#EF5350",
+    "git_gray": "#4C566A",
+    "linter_yellow": "#B39554",
+    "linter_red": "#EF5350",
+    "linter_blue": "#64B5F6"
+  },
+  "globals": {
+    "background": "var(black)",
+    "foreground": "var(white)",
+    "caret": "var(light_blue)",
+    "line_highlight": "var(dark_blue)",
+    "selection": "var(sad_blue)",
+    "inactive_selection": "var(fuchsia_blue)",
+    "find_highlight": "var(cold_blue)",
+    "find_highlight_foreground": "var(darkness)"
+  },
+  "rules": [
+    // Defaults
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(gray)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "var(orange_ish)"
+    },
+    {
+      "name": "Entity",
+      "scope": "entity",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "background": "var(wild_pink)",
+      "foreground": "var(light)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, punctuation.accessor, storage.modifier",
+      "foreground": "var(magenta)"
+    },
+    {
+      "name": "Storage",
+      "scope": "storage, variable.function",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "String quoted",
+      "scope": "string.quoted",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.language",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "Class constructor name",
+      "scope": "entity.name.class",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Class inherited class",
+      "scope": "entity.other.inherited-class",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "Class constructor function",
+      "scope": "entity.name.function.constructor",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "foreground": "var(blue)"
+    },
+
+    {
+      "name": "Meta Tag",
+      "scope": "meta.tag punctuation.definition.tag",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "Tag names",
+      "scope": "entity.name.tag",
+      "foreground": "var(light_cyan)",
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "meta.tag entity.other.attribute-name",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "italic"
+    },
+
+    // Plugin support
+    {
+      "name": "[GitGutter] Inserted",
+      "scope": "markup.inserted.git_gutter",
+      "foreground": "var(git_green)"
+    },
+    {
+      "name": "[GitGutter] Modified",
+      "scope": "markup.changed.git_gutter",
+      "foreground": "var(git_orange)"
+    },
+    {
+      "name": "[GitGutter] Deleted",
+      "scope": "markup.deleted.git_gutter",
+      "foreground": "var(git_red)"
+    },
+    {
+      "name": "[GitGutter] Ignored",
+      "scope": "markup.ignored.git_gutter",
+      "foreground": "var(git_gray)"
+    },
+    {
+      "name": "[SublimeLinter] Warning",
+      "scope": "sublimelinter.mark.warning",
+      "foreground": "var(linter_yellow)"
+    },
+    {
+      "name": "[SublimeLinter] Error",
+      "scope": "sublimelinter.mark.error",
+      "foreground": "var(linter_red)"
+    },
+    {
+      "name": "[SublimeLinter] Gutter mark",
+      "scope": "sublimelinter.gutter-mark",
+      "foreground": "var(linter_blue)"
+    },
+
+    // Language support
+    {
+      "name": "[Javascript] String",
+      "scope": "source.js string",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Javascript] String - Template expression",
+      "scope": "source.js punctuation.definition.template-expression.begin.js, source.js punctuation.definition.template-expression.end.js",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "[Javascript] Undefined",
+      "scope": "source.js constant.language.undefined.js",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "[Javascript] Class constructor call",
+      "scope": "source.js meta.function-call.constructor.js variable.type.js",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Javascript] Built-in Class constructor call",
+      "scope": "source.js meta.function-call.constructor.js support.class",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Javascript] Operator - New",
+      "scope": "source.js keyword.operator.word.new.js",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Javascript] Class - reference",
+      "scope": "source.js support.class.js",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[Javascript] Trycatch",
+      "scope": "source.js keyword.control.trycatch.js",
+      "foreground": "var(light_cyan)"
+    },
+
+    {
+      "name": "[Typescript] Decorator",
+      "scope": "source.ts meta.decorator.ts punctuation.decorator.ts",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "[Typescript] Class",
+      "scope": "source.ts meta.class.ts entity.name.type.class.ts",
+      "foreground": "var(peach_orange)"
+    },
+    {
+      "name": "[Typescript] Type annotation class",
+      "scope": "source.ts meta.class.ts meta.type.annotation.ts entity.name.type.ts",
+      "foreground": "var(peach_orange)"
+    },
+
+    {
+      "name": "[JSX] Meta Tag",
+      "scope": "source.jsx meta.tag.other entity.name.tag.other",
+      "foreground": "var(orange_ish)"
+    },
+
+    {
+      "name": "[Vue] Directive symbol",
+      "scope": "text.html.vue punctuation.definition.attribute.html",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "italic"
+    },
+    {
+      "name": "[Vue] Attribute assignment",
+      "scope": "text.html.vue punctuation.separator.key-value.html",
+      "foreground": "var(light_cyan)"
+    },
+
+    {
+      "name": "[PHP] Class - reference",
+      "scope": "embedding.php support.class.php",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[PHP] Class - constant",
+      "scope": "embedding.php constant.other.class.php",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[PHP] Namespace path",
+      "scope": "embedding.php support.other.namespace",
+      "foreground": "var(white)"
+    },
+
+    {
+      "name": "[CSS] Selector - Tag name",
+      "scope": "source.css entity.name.tag.css",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "[CSS] Selector - Class",
+      "scope": "source.css entity.other.attribute-name.class.css",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "[CSS] Selector - ID",
+      "scope": "source.css entity.other.attribute-name.id.css",
+      "foreground": "var(yellow_ish)"
+    },
+    {
+      "name": "[CSS] Selector - Pseudo-class",
+      "scope": "source.css entity.other.pseudo-class.css",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "[CSS] Selector - Separator",
+      "scope": "source.css punctuation.separator.combinator.css",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[CSS] Property list",
+      "scope": "source.css support.type.property-name.css",
+      "foreground": "var(sad_cyan)"
+    },
+    {
+      "name": "[CSS] Value",
+      "scope": "source.css meta.property-value.css constant.other.color.rgb-value.css",
+      "foreground": "var(pale_yellow)"
+    },
+    {
+      "name": "[CSS] Value prefix",
+      "scope": "source.css punctuation.definition.constant.css",
+      "foreground": "var(orange_ish)"
+    },
+    {
+      "name": "[CSS] Unit",
+      "scope": "source.css keyword.other.unit.css",
+      "foreground": "var(pale_yellow)"
+    },
+    {
+      "name": "[CSS] Constant",
+      "scope": "source.css support.constant.property-value.css",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "[CSS] Control block",
+      "scope": "source.css meta.at-rule.media.css keyword.control.at-rule.media.css, source.css support.constant.media.css",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[CSS] Selector - target",
+      "scope": "source.css meta.attribute-selector.css punctuation.definition.entity.css",
+      "foreground": "var(magenta)"
+    },
+    {
+      "name": "[CSS] Selector - attribute",
+      "scope": "source.css entity.other.attribute-name.css",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "[CSS] Selector - Attribute operator",
+      "scope": "source.css keyword.operator.attribute-selector.css",
+      "foreground": "var(light_cyan)"
+    },
+
+    {
+      "name": "[HTML] Doctype - html",
+      "scope": "text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "italic"
+    },
+
+    {
+      "name": "[JSON] Property",
+      "scope": "source.json  meta.structure.dictionary.key.json string.quoted.double.json",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "[JSON] Value - Quote begin",
+      "scope": "source.json meta.structure.dictionary.value.json punctuation.definition.string.begin.json",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[JSON] Value - Quote end",
+      "scope": "source.json meta.structure.dictionary.value.json punctuation.definition.string.end.json",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[JSON] String value",
+      "scope": "source.json meta.structure.dictionary.value.json string.quoted.double.json",
+      "foreground": "var(magenta)"
+    },
+
+    {
+      "name": "[Markdown] Headings",
+      "scope": "text.html.markdown entity.name.section.markdown, text.html.markdown punctuation.definition.heading.begin.markdown",
+      "foreground": "var(live_blue)"
+    },
+    {
+      "name": "[Markdown] Headings",
+      "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+      "foreground": "var(bluish_grey)",
+      "font_style": "italic"
+    },
+    {
+      "name": "[Markdown] Image",
+      "scope": "text.html.markdown punctuation.definition.image",
+      "foreground": "var(live_blue)"
+    },
+    {
+      "name": "[Markdown] Image metadata",
+      "scope": "text.html.markdown meta.image punctuation.definition.metadata",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Markdown] Image link",
+      "scope": "text.html.markdown meta.image markup.underline.link",
+      "foreground": "var(pink)"
+    },
+    {
+      "name": "[Markdown] Link text",
+      "scope": "text.html.markdown meta.link punctuation.definition.link",
+      "foreground": "var(live_blue)"
+    },
+    {
+      "name": "[Markdown] Link metadata",
+      "scope": "text.html.markdown meta.link punctuation.definition.metadata",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Markdown] link url",
+      "scope": "text.html.markdown meta.link markup.underline.link",
+      "foreground": "var(pink)"
+    },
+    {
+      "name": "[Markdown] Bold",
+      "scope": "text.html.markdown markup.bold.markdown",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "bold"
+    },
+    {
+      "name": "[Markdown] Italic",
+      "scope": "text.html.markdown markup.italic.markdown",
+      "foreground": "var(magenta)",
+      "font_style": "italic"
+    },
+    {
+      "name": "[Markdown] Raw",
+      "scope": "text.html.markdown markup.raw.inline.markdown",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
+      "name": "[Markdown] Language block name",
+      "scope": "text.html.markdown constant.other.language-name.markdown",
+      "foreground": "var(white)"
+    }
+  ]
+}
