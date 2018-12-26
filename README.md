@@ -1,7 +1,6 @@
 <p align="center">A port of Sarah Drasner's <a href="https://github.com/sdras/night-owl-vscode-theme">Night Owl</a> VSCode theme</p>
 
 <p align="center">A theme for the night owls out there. Works well in the daytime, too, but this theme is fine-tuned for those of us who like to code late into the night.</p>
----
 
 ## Getting Started
 
