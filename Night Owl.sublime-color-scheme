@@ -264,6 +264,11 @@
     },
 
     {
+      "name": "[PHP] Built-in function",
+      "scope": "embedding.php support.function",
+      "foreground": "var(blue)"
+    },
+    {
       "name": "[PHP] Class - reference",
       "scope": "embedding.php support.class.php",
       "foreground": "var(light_cyan)"
