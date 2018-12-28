@@ -150,6 +150,11 @@
       "foreground": "var(greenish_yellow)",
       "font_style": "italic"
     },
+    {
+      "name": "Tag key-val separator",
+      "scope": "meta.tag meta.attribute-with-value punctuation.separator.key-value",
+      "foreground": "var(light_cyan)"
+    },
 
     // Plugin support
     {
@@ -386,6 +391,49 @@
       "scope": "text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html",
       "foreground": "var(greenish_yellow)",
       "font_style": "italic"
+    },
+    {
+      "name": "[HTML] String - Single quoted in single quote",
+      "scope": "text.html string.quoted.single meta.tag string.quoted.single ",
+      "background": "var(wild_pink)",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[HTML] String - Double quoted in double quote",
+      "scope": "text.html string.quoted.double meta.tag string.quoted.double ",
+      "background": "var(wild_pink)",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[HTML-like] Tag punctuation",
+      "scope": "text.html punctuation.definition.tag.html",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[HTML-like] Tag attribute",
+      "scope": "text.html entity.other.attribute-name.html",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "italic"
+    },
+    {
+      "name": "[HTML-like] Function calls",
+      "scope": "text.html meta.tag meta.function-call",
+      "foreground": "var(blue)",
+    },
+    {
+      "name": "[HTML-like] String - function parameters",
+      "scope": "text.html string meta.tag punctuation.definition.parameters",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[HTML-like] String - function argument other",
+      "scope": "text.html string meta.tag meta.function.arguments variable.other",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[HTML-like] String - function argument array",
+      "scope": "text.html string meta.tag meta.function.arguments meta.array punctuation.section",
+      "foreground": "var(white)"
     },
 
     {
