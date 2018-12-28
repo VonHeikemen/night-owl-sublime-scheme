@@ -116,7 +116,7 @@
     {
       "name": "Class constructor name",
       "scope": "entity.name.class",
-      "foreground": "var(yellow)"
+      "foreground": "var(peach_orange)"
     },
     {
       "name": "Class inherited class",
@@ -212,12 +212,12 @@
     {
       "name": "[Javascript] Class constructor call",
       "scope": "source.js meta.function-call.constructor.js variable.type.js",
-      "foreground": "var(yellow)"
+      "foreground": "var(peach_orange)"
     },
     {
       "name": "[Javascript] Built-in Class constructor call",
       "scope": "source.js meta.function-call.constructor.js support.class",
-      "foreground": "var(yellow)"
+      "foreground": "var(peach_orange)"
     },
     {
       "name": "[Javascript] Operator - New",
@@ -302,7 +302,7 @@
     {
       "name": "[PHP] Class - reference",
       "scope": "embedding.php support.class.php",
-      "foreground": "var(light_cyan)"
+      "foreground": "var(peach_orange)"
     },
     {
       "name": "[PHP] Class - constant",
@@ -313,6 +313,21 @@
       "name": "[PHP] Namespace path",
       "scope": "embedding.php support.other.namespace",
       "foreground": "var(white)"
+    },
+    {
+      "name": "[PHP] keyword - new",
+      "scope": "embedding.php keyword.other.new",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[PHP] Trycatch",
+      "scope": "embedding.php keyword.control.exception",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[PHP] Class static accessor",
+      "scope": "embedding.php punctuation.accessor.double-colon",
+      "foreground": "var(light_cyan)"
     },
 
     {
