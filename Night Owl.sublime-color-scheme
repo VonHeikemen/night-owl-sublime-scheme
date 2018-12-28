@@ -33,6 +33,7 @@
     "wild_pink": "#FF2C83",
     "pink": "#FF869A",
     "peach_orange": "#FFCB8B",
+    "moderate_red": "#D3423E",
 
     // UI: Gutter
     "git_green": "#9CCC65",
@@ -249,6 +250,16 @@
       "name": "[JSX] Meta Tag",
       "scope": "source.jsx meta.tag.other entity.name.tag.other",
       "foreground": "var(orange_ish)"
+    },
+    {
+      "name": "[VSCode JSX] Component name",
+      "scope": "source.js meta.tag entity.name.tag support.class.component.js",
+      "foreground": "var(orange_ish)"
+    },
+    {
+      "name": "[VSCode JSX] Embedded expressions",
+      "scope": "source.js meta.embedded.expression.js.jsx punctuation.section.embedded",
+      "foreground": "var(moderate_red)"
     },
 
     {
