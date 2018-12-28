@@ -220,6 +220,11 @@
       "foreground": "var(light_cyan)"
     },
     {
+      "name": "[Javascript] Support property dom",
+      "scope": "source.js support.constant.dom",
+      "foreground": "var(white)"
+    },
+    {
       "name": "[Javascript] Class - reference",
       "scope": "source.js support.class.js",
       "foreground": "var(white)"
@@ -228,6 +233,16 @@
       "name": "[Javascript] Trycatch",
       "scope": "source.js keyword.control.trycatch.js",
       "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Javascript] Dom method call",
+      "scope": "source.js meta.function-call.method.js support.function.dom",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "[Javascript] Support node",
+      "scope": "source.js support.module.node.js",
+      "foreground": "var(white)"
     },
 
     {
