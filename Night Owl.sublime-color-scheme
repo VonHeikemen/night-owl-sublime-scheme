@@ -30,10 +30,12 @@
     "fuchsia_blue": "#7E57C25A",
     "live_blue": "#82B1FF",
     "bluish_grey": "#697098",
+    "soft_blue": "#5ca7e4",
     "wild_pink": "#FF2C83",
     "pink": "#FF869A",
     "peach_orange": "#FFCB8B",
     "moderate_red": "#D3423E",
+    "light_lime_green": "#D9F5DD",
 
     // UI: Gutter
     "git_green": "#9CCC65",
@@ -102,6 +104,11 @@
       "name": "String quoted",
       "scope": "string.quoted",
       "foreground": "var(yellow)"
+    },
+    {
+      "name": "String quoted - punctuation",
+      "scope": "string.quoted punctuation.definition.string",
+      "foreground": "var(light_lime_green)"
     },
     {
       "name": "Support",
@@ -457,19 +464,30 @@
       "foreground": "var(greenish_yellow)"
     },
     {
-      "name": "[JSON] Value - Quote begin",
-      "scope": "source.json meta.structure.dictionary.value.json punctuation.definition.string.begin.json",
-      "foreground": "var(white)"
-    },
-    {
-      "name": "[JSON] Value - Quote end",
-      "scope": "source.json meta.structure.dictionary.value.json punctuation.definition.string.end.json",
-      "foreground": "var(white)"
+      "name": "[JSON] String - nested object key quote",
+      "scope": "source.json  meta.structure.dictionary.value.json meta.structure.dictionary.key.json string.quoted.double.json punctuation.definition.string",
+      "foreground": "var(greenish_yellow)"
     },
     {
       "name": "[JSON] String value",
       "scope": "source.json meta.structure.dictionary.value.json string.quoted.double.json",
       "foreground": "var(magenta)"
+    },
+
+    {
+      "name": "[RegEx] Strings",
+      "scope": "source.regexp, source.regexp constant",
+      "foreground": "var(soft_blue)"
+    },
+    {
+      "name": "[RegEx] Operators",
+      "scope": "source.regexp keyword.operator",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[RegEx] Constant - escaped",
+      "scope": "source.regexp constant.character.escape",
+      "foreground": "var(orange_ish)"
     },
 
     {
