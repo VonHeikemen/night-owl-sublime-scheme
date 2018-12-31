@@ -465,7 +465,7 @@
     },
     {
       "name": "[JSON] String - nested object key quote",
-      "scope": "source.json  meta.structure.dictionary.value.json meta.structure.dictionary.key.json string.quoted.double.json punctuation.definition.string",
+      "scope": "source.json meta.structure.dictionary.key.json string.quoted.double.json punctuation.definition.string",
       "foreground": "var(greenish_yellow)"
     },
     {
