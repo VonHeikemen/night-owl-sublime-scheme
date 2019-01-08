@@ -5,10 +5,17 @@
 ## Getting Started
 
 ### Installation
+###### Recommended
+
+Install `Night Owl` via Package Control.
+
+1. Open the Command Palette via <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>
+2. Select *Package Control: Install Package*
+3. Search for `Night Owl` and press <kbd>↲ Enter</kbd>
 
 ###### Manual
 
-1. Clone or download this repository, (re)name the folder to `Night-Owl` if necessary.
+1. Clone or download this repository, (re)name the folder to `Night Owl` if necessary.
 2. Move the folder inside your sublime `/Packages`. (*Preferences > Browse Packages...*)
 
 ### Activation
@@ -26,7 +33,7 @@
 Set the color scheme in your user settings *Preferences > Settings*:
 
 ```json
-"color_scheme": "Packages/Night-Owl/Night Owl.sublime-color-scheme"
+"color_scheme": "Packages/Night Owl/Night Owl.sublime-color-scheme"
 ```
 
 ## Color Palette
