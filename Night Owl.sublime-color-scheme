@@ -273,6 +273,68 @@
     },
 
     {
+      "name": "[Javascript Babel] Extends - keyword",
+      "scope": "source.js meta.class.js storage.type.extends.js",
+      "foreground": "var(magenta)"
+    },
+    {
+      "name": "[Javascript Babel] Class - super",
+      "scope": "source.js meta.class.js meta.group.braces.curly.js variable.language.super.js",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Javascript Babel] Class - new",
+      "scope": "source.js meta.instance.constructor.js keyword.operator.new.js",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Javascript Babel] Class - support",
+      "scope": "source.js meta.instance.constructor.js support.class",
+      "foreground": "var(peach_orange)"
+    },
+    {
+      "name": "[Javascript Babel] Class - constructor call",
+      "scope": "source.js meta.instance.constructor.js variable.function.constructor.js",
+      "foreground": "var(peach_orange)"
+    },
+    {
+      "name": "[Javascript Babel] String quoted - template punctuation",
+      "scope": "source.js string.interpolated.js keyword.other.template",
+      "foreground": "var(light_lime_green)"
+    },
+    {
+      "name": "[Javascript Babel] String quoted - template expression",
+      "scope": "source.js string.interpolated.js keyword.other.substitution",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "[Javascript Babel] Object - unquoted key",
+      "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[Javascript Babel] Object - separator",
+      "scope": "source.js constant.other.object.key.js punctuation.separator.key-value.js",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[Javascript Babel] JSX tag",
+      "scope": "source.js meta.jsx.js meta.tag.jsx entity.name.tag.jsx",
+      "foreground": "var(orange_ish)"
+    },
+    {
+      "name": "[Javascript Babel] JSX attribute",
+      "scope": "source.js meta.jsx.js entity.other.attribute-name.jsx",
+      "foreground": "var(greenish_yellow)",
+      "font_style": "italic"
+    },
+    {
+      "name": "[Javascript Babel] JSX expression punctuation",
+      "scope": "source.js meta.jsx.js meta.embedded.expression.jsx punctuation.section.embedded",
+      "foreground": "var(red)"
+    },
+
+    {
       "name": "[Typescript] Decorator",
       "scope": "source.ts meta.decorator.ts punctuation.decorator.ts",
       "foreground": "var(blue)"
