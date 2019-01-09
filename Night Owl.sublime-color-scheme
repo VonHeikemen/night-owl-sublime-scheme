@@ -23,7 +23,7 @@
     "light": "#FFF",
     "pale_yellow": "#FFEB95",
     "sad_cyan": "#80CBC4",
-    "dark_blue": "#011220",
+    "dark_blue": "#01121F",
     "light_blue": "#80A4C2",
     "sad_blue": "#1D3B53",
     "cold_blue": "#5F7E97",
@@ -207,6 +207,11 @@
       "foreground": "var(yellow)"
     },
     {
+      "name": "String quoted - template punctuation",
+      "scope": "source.js string.template.js punctuation.definition.string.template",
+      "foreground": "var(light_lime_green)"
+    },
+    {
       "name": "[Javascript] String - Template expression",
       "scope": "source.js punctuation.definition.template-expression.begin.js, source.js punctuation.definition.template-expression.end.js",
       "foreground": "var(red)"
@@ -232,6 +237,11 @@
       "foreground": "var(light_cyan)"
     },
     {
+      "name": "[Javascript] Class - super",
+      "scope": "source.js meta.class.js meta.block.js meta.block.js meta.function-call.js support.function.js",
+      "foreground": "var(light_cyan)"
+    },
+    {
       "name": "[Javascript] Support property dom",
       "scope": "source.js support.constant.dom",
       "foreground": "var(white)"
@@ -247,9 +257,14 @@
       "foreground": "var(light_cyan)"
     },
     {
-      "name": "[Javascript] Dom method call",
-      "scope": "source.js meta.function-call.method.js support.function.dom",
+      "name": "[Javascript] Method call",
+      "scope": "source.js meta.function-call.method.js support.function",
       "foreground": "var(blue)"
+    },
+    {
+      "name": "[Javascript] Console method call",
+      "scope": "source.js meta.function-call.method.js support.function.console",
+      "foreground": "var(greenish_yellow)"
     },
     {
       "name": "[Javascript] Support node",
@@ -286,7 +301,32 @@
     {
       "name": "[VSCode JSX] Embedded expressions",
       "scope": "source.js meta.embedded.expression.js.jsx punctuation.section.embedded",
-      "foreground": "var(moderate_red)"
+      "foreground": "var(red)"
+    },
+    {
+      "name": "[VSCode JSX] Class - name",
+      "scope": "source.js.jsx meta.class.js.jsx entity.name.type.class.js.jsx",
+      "foreground": "var(peach_orange)"
+    },
+    {
+      "name": "[VSCode JSX] Class - new",
+      "scope": "source.js.jsx new.expr.js.jsx keyword.operator.new.js.jsx",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[VSCode JSX] Entity",
+      "scope": "source.js.jsx new.expr.js.jsx entity.name.type.js.jsx",
+      "foreground": "var(peach_orange)"
+    },
+    {
+      "name": "[VSCode JSX] String - template variable",
+      "scope": "source.js.jsx new.expr.js.jsx string.template.js.jsx meta.template.expression.js.jsx variable.other",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[VSCode JSX] Support dom property",
+      "scope": "source.js.jsx support.variable.property.dom.js.jsx",
+      "foreground": "var(white)"
     },
 
     {
@@ -304,6 +344,11 @@
     {
       "name": "[PHP] Built-in function",
       "scope": "embedding.php support.function",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "[PHP] Function variable",
+      "scope": "embedding.php meta.function-call.invoke.php variable.other.php",
       "foreground": "var(blue)"
     },
     {
