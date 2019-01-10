@@ -227,6 +227,10 @@ Set the color scheme in your user settings *Preferences > Settings*:
 
 ![preview javascript](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-js.png)
 
+<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Babel">Babel</a>)</p>
+
+![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-jsx.png)
+
 <p align="center">CSS</p>
 
 ![preview css](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-css.png)
@@ -234,4 +238,5 @@ Set the color scheme in your user settings *Preferences > Settings*:
 <p align="center">HTML</p>
 
 ![preview html](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-html.png)
+
 
