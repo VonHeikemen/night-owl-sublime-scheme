@@ -227,10 +227,6 @@ Set the color scheme in your user settings *Preferences > Settings*:
 
 ![preview javascript](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-js.png)
 
-<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Babel">Babel</a>)</p>
-
-![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-jsx.png)
-
 <p align="center">CSS</p>
 
 ![preview css](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-css.png)
@@ -238,5 +234,21 @@ Set the color scheme in your user settings *Preferences > Settings*:
 <p align="center">HTML</p>
 
 ![preview html](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-html.png)
+
+<p align="center">Markdown</p>
+
+![preview markdown](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-markdown.png)
+
+<p align="center">JSON</p>
+
+![preview json](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-json.png)
+
+<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Babel">Babel</a>)</p>
+
+![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-jsx.png)
+
+<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Simple%20JSX">Simple JSX</a>)</p>
+
+![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-simple-jsx.png)
 
 
