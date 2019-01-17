@@ -443,6 +443,21 @@
       "scope": "embedding.php punctuation.accessor.double-colon",
       "foreground": "var(light_cyan)"
     },
+    {
+      "name": "[PHP] String - variable",
+      "scope": "embedding.php string.quoted.double meta.string-contents.quoted.double variable.other",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[PHP] String - function parameters - punctuation",
+      "scope": "embedding.php string.quoted.double.php meta.string-contents.quoted.double meta.function-call punctuation.section.group",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "[PHP] String - function parameters - arrays",
+      "scope": "embedding.php string.quoted.double.php meta.string-contents.quoted.double.php meta.function-call.php meta.array punctuation.section.array",
+      "foreground": "var(white)"
+    },
 
     {
       "name": "[CSS] Selector - Tag name",
@@ -563,6 +578,12 @@
       "name": "[HTML-like] String - function argument array",
       "scope": "text.html string meta.tag meta.function.arguments meta.array punctuation.section",
       "foreground": "var(white)"
+    },
+    {
+      "name": "[HTML-like] Comment - function",
+      "scope": "text.html comment meta.tag meta.function-call.twig",
+      "foreground": "var(gray)",
+      "font_style": "italic"
     },
 
     {
