@@ -680,6 +680,36 @@
       "name": "[Markdown] Language block name",
       "scope": "text.html.markdown constant.other.language-name.markdown",
       "foreground": "var(white)"
-    }
+    },
+    {
+      "name": "[Diff] From file",
+      "scope": "meta.diff.header.from-file",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Diff] To file",
+      "scope": "meta.diff.header.to-file",
+      "foreground": "var(magenta)"
+    },
+    {
+      "name": "[Diff] Inserted",
+      "scope": "markup.inserted.diff",
+      "foreground": "var(git_green)"
+    },
+    {
+      "name": "[Diff] Deleted",
+      "scope": "markup.deleted.diff",
+      "foreground": "var(moderate_red)"
+    },
+    {
+      "name": "[Diff] Range",
+      "scope": "punctuation.definition.range.diff",
+      "foreground": "var(soft_blue)"
+    },
+    {
+      "name": "[Diff] Line number",
+      "scope": "meta.toc-list.line-number.diff",
+      "foreground": "var(light_cyan)"
+    }    
   ]
 }
