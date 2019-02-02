@@ -681,34 +681,35 @@
       "scope": "text.html.markdown constant.other.language-name.markdown",
       "foreground": "var(white)"
     },
+
     {
       "name": "[Diff] From file",
-      "scope": "meta.diff.header.from-file",
+      "scope": "source.diff meta.diff.header.from-file",
       "foreground": "var(yellow)"
     },
     {
       "name": "[Diff] To file",
-      "scope": "meta.diff.header.to-file",
-      "foreground": "var(magenta)"
+      "scope": "source.diff meta.diff.header.to-file",
+      "foreground": "var(yellow)"
     },
     {
       "name": "[Diff] Inserted",
-      "scope": "markup.inserted.diff",
+      "scope": "source.diff markup.inserted.diff",
       "foreground": "var(git_green)"
     },
     {
       "name": "[Diff] Deleted",
-      "scope": "markup.deleted.diff",
+      "scope": "source.diff markup.deleted.diff",
       "foreground": "var(moderate_red)"
     },
     {
       "name": "[Diff] Range",
-      "scope": "punctuation.definition.range.diff",
-      "foreground": "var(soft_blue)"
+      "scope": "source.diff punctuation.definition.range.diff",
+      "foreground": "var(light_cyan)"
     },
     {
       "name": "[Diff] Line number",
-      "scope": "meta.toc-list.line-number.diff",
+      "scope": "source.diff meta.toc-list.line-number.diff",
       "foreground": "var(light_cyan)"
     }    
   ]
