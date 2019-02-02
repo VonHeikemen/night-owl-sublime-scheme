@@ -681,7 +681,6 @@
       "scope": "text.html.markdown constant.other.language-name.markdown",
       "foreground": "var(white)"
     },
-
     {
       "name": "[Diff] From file",
       "scope": "source.diff meta.diff.header.from-file",
@@ -710,6 +709,36 @@
     {
       "name": "[Diff] Line number",
       "scope": "source.diff meta.toc-list.line-number.diff",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Git commit message] From file",
+      "scope": "text.git-commit meta.diff.header.from-file",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Git commit message] To file",
+      "scope": "text.git-commit meta.diff.header.to-file",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Git commit message] Inserted",
+      "scope": "text.git-commit markup.inserted.diff",
+      "foreground": "var(git_green)"
+    },
+    {
+      "name": "[Git commit message] Deleted",
+      "scope": "text.git-commit markup.deleted.diff",
+      "foreground": "var(moderate_red)"
+    },
+    {
+      "name": "[Git commit message] Range",
+      "scope": "text.git-commit punctuation.definition.range.diff",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Git commit message] Line number",
+      "scope": "text.git-commit meta.toc-list.line-number.diff",
       "foreground": "var(light_cyan)"
     }    
   ]
