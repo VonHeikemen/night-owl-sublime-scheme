@@ -30,7 +30,7 @@
     "fuchsia_blue": "#7E57C25A",
     "live_blue": "#82B1FF",
     "bluish_grey": "#697098",
-    "soft_blue": "#5ca7e4",
+    "soft_blue": "#5CA7E4",
     "wild_pink": "#FF2C83",
     "pink": "#FF869A",
     "peach_orange": "#FFCB8B",
@@ -681,6 +681,7 @@
       "scope": "text.html.markdown constant.other.language-name.markdown",
       "foreground": "var(white)"
     },
+
     {
       "name": "[Diff] From file",
       "scope": "source.diff meta.diff.header.from-file",
@@ -711,6 +712,7 @@
       "scope": "source.diff meta.toc-list.line-number.diff",
       "foreground": "var(light_cyan)"
     },
+
     {
       "name": "[Git commit message] From file",
       "scope": "text.git-commit meta.diff.header.from-file",
@@ -740,6 +742,23 @@
       "name": "[Git commit message] Line number",
       "scope": "text.git-commit meta.toc-list.line-number.diff",
       "foreground": "var(light_cyan)"
-    }    
+    },
+
+    {
+      "name": "[Find-in-files] Filename",
+      "scope": "text.find-in-files entity.name.filename",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "[Find-in-files] Number match",
+      "scope": "text.find-in-files constant.numeric.line-number.match",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[Find-in-files] Number",
+      "scope": "text.find-in-files constant.numeric.line-number",
+      "foreground": "var(cold_blue)"
+    },
+
   ]
 }
