@@ -92,7 +92,12 @@
     },
     {
       "name": "Storage",
-      "scope": "storage, variable.function",
+      "scope": "storage",
+      "foreground": "var(magenta)"
+    },
+    {
+      "name": "Function",
+      "scope": "variable.function, support.function",
       "foreground": "var(blue)"
     },
     {
@@ -252,11 +257,6 @@
       "foreground": "var(white)"
     },
     {
-      "name": "[Javascript] Trycatch",
-      "scope": "source.js keyword.control.trycatch.js",
-      "foreground": "var(light_cyan)"
-    },
-    {
       "name": "[Javascript] Method call",
       "scope": "source.js meta.function-call.method.js support.function",
       "foreground": "var(blue)"
@@ -318,6 +318,11 @@
       "foreground": "var(white)"
     },
     {
+      "name": "[Javascript] Console method call",
+      "scope": "source.js support.function.console.js",
+      "foreground": "var(greenish_yellow)"
+    },
+    {
       "name": "[Javascript Babel] JSX tag",
       "scope": "source.js meta.jsx.js meta.tag.jsx entity.name.tag.jsx",
       "foreground": "var(orange_ish)"
@@ -351,7 +356,7 @@
     },
 
     {
-      "name": "[JSX] Meta Tag",
+      "name": "[Simple JSX] Meta Tag",
       "scope": "source.jsx meta.tag.other entity.name.tag.other",
       "foreground": "var(orange_ish)"
     },
@@ -476,7 +481,7 @@
     },
     {
       "name": "[CSS] Selector - Pseudo-class",
-      "scope": "source.css entity.other.pseudo-class.css",
+      "scope": "source.css meta.selector.css entity.other.pseudo-element.css, source.css meta.selector.css entity.other.pseudo-class.css",
       "foreground": "var(greenish_yellow)"
     },
     {
@@ -510,6 +515,16 @@
       "foreground": "var(red)"
     },
     {
+      "name": "[CSS] Constant color",
+      "scope": "source.css support.constant.color.w3c-standard-color-name.css",
+      "foreground": "var(sad_cyan)"
+    },
+    {
+      "name": "[CSS] Constant font",
+      "scope": "source.css support.constant.font-name.css",
+      "foreground": "var(sad_cyan)"
+    },
+    {
       "name": "[CSS] Control block",
       "scope": "source.css meta.at-rule.media.css keyword.control.at-rule.media.css, source.css support.constant.media.css",
       "foreground": "var(light_cyan)"
@@ -529,12 +544,22 @@
       "scope": "source.css keyword.operator.attribute-selector.css",
       "foreground": "var(light_cyan)"
     },
+    {
+      "name": "[CSS] String - unquoted",
+      "scope": "source.css meta.property-list.css string.unquoted.css",
+      "foreground": "var(white)"
+    },
 
     {
       "name": "[HTML] Doctype - html",
-      "scope": "text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html",
+      "scope": "text.html meta.tag.sgml.doctype.html constant.language.doctype.html",
       "foreground": "var(greenish_yellow)",
       "font_style": "italic"
+    },
+    {
+      "name": "[HTML] Doctype - declaration",
+      "scope": "text.html meta.tag.sgml.doctype.html keyword.declaration.doctype.html",
+      "foreground": "var(light_cyan)",
     },
     {
       "name": "[HTML] String - Single quoted in single quote",
@@ -581,24 +606,35 @@
     },
     {
       "name": "[HTML-like] Comment - function",
-      "scope": "text.html comment meta.tag meta.function-call.twig",
+      "scope": "text.html comment meta.tag meta.function-call",
       "foreground": "var(gray)",
       "font_style": "italic"
     },
 
     {
-      "name": "[JSON] Property",
-      "scope": "source.json  meta.structure.dictionary.key.json string.quoted.double.json",
-      "foreground": "var(greenish_yellow)"
+      "name": "[Twig] Tag - attribute assign",
+      "scope": "text.html.twig meta.tag.inline.any.html, text.html.twig meta.tag.block.any.html, text.html.twig source.css.embedded.html",
+      "foreground": "var(light_cyan)"
     },
     {
-      "name": "[JSON] String - nested object key quote",
-      "scope": "source.json meta.structure.dictionary.key.json string.quoted.double.json punctuation.definition.string",
-      "foreground": "var(greenish_yellow)"
+      "name": "[Twig] Puntuation",
+      "scope": "text.html.twig punctuation.section.tag.twig",
+      "foreground": "var(white)"
+    },
+
+    {
+      "name": "[JSON] Property",
+      "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+      "foreground": "var(light_cyan)"
+    },
+    {
+      "name": "[JSON] String - key punctuation",
+      "scope": "source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+      "foreground": "var(light_cyan)"
     },
     {
       "name": "[JSON] String value",
-      "scope": "source.json meta.structure.dictionary.value.json string.quoted.double.json",
+      "scope": "source.json meta.mapping.value.json string.quoted.double.json",
       "foreground": "var(magenta)"
     },
 
@@ -624,7 +660,7 @@
       "foreground": "var(live_blue)"
     },
     {
-      "name": "[Markdown] Headings",
+      "name": "[Markdown] Quotes",
       "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
       "foreground": "var(bluish_grey)",
       "font_style": "italic"
