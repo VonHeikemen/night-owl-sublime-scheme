@@ -313,10 +313,10 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Search highlight</code>
       </td>
       <td>
-        #49D0C5
+        #93A1A16C
       </td>
       <td>
-        <img src='http://www.colorhexa.com/49d0c5.png' height='24' width='39'>
+        <img src='http://www.colorhexa.com/93a1a1.png' height='24' width='39'>
       </td>
     </tr>
     <tr>
@@ -346,10 +346,10 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Numbers</code>
       </td>
       <td>
-        #F78C6C
+        #AA0982
       </td>
       <td>
-        <img src='http://www.colorhexa.com/f78c6c.png' height='24' width='39'>
+        <img src='http://www.colorhexa.com/aa0982.png' height='24' width='39'>
       </td>
     </tr>
     <tr>
@@ -401,10 +401,10 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Language variables</code>
       </td>
       <td>
-        #319A9E
+        #0C969B
       </td>
       <td>
-        <img src='http://www.colorhexa.com/319a9e.png' height='24' width='39'>
+        <img src='http://www.colorhexa.com/0C969b.png' height='24' width='39'>
       </td>
     </tr>
     <tr>
