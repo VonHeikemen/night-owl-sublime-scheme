@@ -233,6 +233,8 @@ Set the color scheme in your user settings *Preferences > Settings*:
 
 ### Preview
 
+[More screenshots](https://github.com/VonHeikemen/night-owl-sublime-scheme/blob/master/screenshots-theme-dark.md)
+
 ![preview dark theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/dark-theme/screenshot-syntax-js.png)
 
 ### Light theme
@@ -420,5 +422,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
 </table>
 
 ### Preview
+
+[More screenshots](https://github.com/VonHeikemen/night-owl-sublime-scheme/blob/master/screenshots-theme-light.md)
 
 ![preview light theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/light-theme/screenshot-syntax-js.png)
