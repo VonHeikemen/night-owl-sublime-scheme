@@ -231,6 +231,8 @@ Set the color scheme in your user settings *Preferences > Settings*:
   </tbody>
 </table>
 
+### Preview
+
 ![preview dark theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/dark-theme/screenshot-syntax-js.png)
 
 ### Light theme
@@ -416,5 +418,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
     </tr>
   </tbody>
 </table>
+
+### Preview
 
 ![preview light theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/light-theme/screenshot-syntax-js.png)
