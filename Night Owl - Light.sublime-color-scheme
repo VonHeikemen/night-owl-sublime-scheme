@@ -8,9 +8,9 @@
     "white": "#FBFBFB",
     "gray": "#939DBB",
     "blue": "#4876D6",
-    "red": "#F78C6C",
+    "red": "#BC5454",
     "magenta": "#994CC3",
-    "cyan": "#319A9E",
+    "cyan": "#0C969b",
     "yellow": "#C96765",
 
     // Rarely used
@@ -20,13 +20,13 @@
     "soft_blue": "#5CA7E4",
     "wild_pink": "#FF2C83",
     "soft_pink": "#FF869A",
-    "chesnut_red": "#BC5454",
     "persian_red": "#D3423E",
     "smoke_white": "#F0F0F0",
     "gainsboro_white": "#E0E0E0",
     "solitude_white": "#EDEDED",
-    "turquoise": "#49D0C5",
     "light_magenta": "#C789D6",
+    "dark_magenta": "#AA0982",
+    "grayish_cyan": "#93A1A16C",
 
     // UI: Gutter
     "git_cyan": "#49D0C5",
@@ -45,7 +45,7 @@
     "line_highlight": "var(smoke_white)",
     "selection": "var(gainsboro_white)",
     "inactive_selection": "var(solitude_white)",
-    "find_highlight": "var(turquoise)",
+    "find_highlight": "var(grayish_cyan)",
     "find_highlight_foreground": "var(darkness)"
   },
   "rules": [
@@ -63,12 +63,12 @@
     {
       "name": "Constant",
       "scope": "constant",
-      "foreground": "var(chesnut_red)"
+      "foreground": "var(red)"
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "Entity",
@@ -280,7 +280,7 @@
     {
       "name": "[Javascript Babel] JSX tag",
       "scope": "source.js meta.jsx.js meta.tag.jsx entity.name.tag.jsx",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "[Javascript Babel] JSX attribute",
@@ -297,7 +297,7 @@
     {
       "name": "[Simple JSX] Meta Tag",
       "scope": "source.jsx meta.tag.other entity.name.tag.other",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
 
     {
@@ -387,7 +387,7 @@
     {
       "name": "[CSS] Selector - ID",
       "scope": "source.css entity.other.attribute-name.id.css",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "[CSS] Selector - Pseudo-class",
@@ -407,17 +407,17 @@
     {
       "name": "[CSS] Value",
       "scope": "source.css meta.property-value.css constant.other.color.rgb-value.css",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "[CSS] Value prefix",
       "scope": "source.css punctuation.definition.constant.css",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "[CSS] Unit",
       "scope": "source.css keyword.other.unit.css",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
     {
       "name": "[CSS] Constant",
@@ -554,7 +554,7 @@
     {
       "name": "[RegEx] Constant - escaped",
       "scope": "source.regexp constant.character.escape",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
 
     {
@@ -618,7 +618,7 @@
     {
       "name": "[Markdown] Language block name",
       "scope": "text.html.markdown constant.other.language-name.markdown",
-      "foreground": "var(red)"
+      "foreground": "var(dark_magenta)"
     },
 
     {
