@@ -1,11 +1,15 @@
 <p align="center">A port of Sarah Drasner's <a href="https://github.com/sdras/night-owl-vscode-theme">Night Owl</a> VSCode theme</p>
 
-<p align="center">A theme for the night owls out there. Works well in the daytime, too, but this theme is fine-tuned for those of us who like to code late into the night.</p>
+<p align="center">
+  A theme for the night owls out there. Works well in the daytime, too, but this theme is fine-tuned for those of us who like to code late into the night.
+
+  As of 1.0.0, there's a Light Owl Theme too! Color balanced from the Dark version for easy viewing in daylight.
+</p>
 
 ## Getting Started
 
 ### Installation
-###### Recommended
+#### Recommended
 
 Install `Night Owl` via Package Control.
 
@@ -13,7 +17,7 @@ Install `Night Owl` via Package Control.
 2. Select *Package Control: Install Package*
 3. Search for `Night Owl` and press <kbd>↲ Enter</kbd>
 
-###### Manual
+#### Manual
 
 1. Clone or download this repository, (re)name the folder to `Night Owl` if necessary.
 2. Move the folder inside your sublime `/Packages`. (*Preferences > Browse Packages...*)
@@ -22,22 +26,28 @@ Install `Night Owl` via Package Control.
 
 #### Color Scheme
 
-###### Recommended
+##### Recommended
 
 1. Open the Command Palette via <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>
 2. Select *UI: Select Color Scheme*
-3. Search for `Night Owl` and press <kbd>↲ Enter</kbd>
+3. Search for `Night Owl`or `Night Owl - Light` and press <kbd>↲ Enter</kbd>
 
-###### Via Preferences
+##### Via Preferences
 
 Set the color scheme in your user settings *Preferences > Settings*:
 
+- Dark theme
 ```json
 "color_scheme": "Packages/Night Owl/Night Owl.sublime-color-scheme"
+```
+- Light theme
+```json
+"color_scheme": "Packages/Night Owl/Night Owl - Light.sublime-color-scheme"
 ```
 
 ## Color Palette
 
+### Dark theme
 <table>
   <thead>
     <tr>
@@ -45,7 +55,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
         Use
       </th>
       <th>
-        Hex
+        Color
       </th>
       <th>
         Sample
@@ -165,7 +175,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
     </tr>
     <tr>
       <td>
-        <code>Storage types, function calls</code>
+        <code>Functions</code>
       </td>
       <td>
         #82AAFF
@@ -218,37 +228,193 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <img src='http://www.colorhexa.com/ff2c83.png' height='24' width='39'>
       </td>
     </tr>
-
   </tbody>
 </table>
 
-## Screenshots
-<p align="center">Javascript</p>
+![preview dark theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/dark-theme/screenshot-syntax-js.png)
 
-![preview javascript](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-js.png)
+### Light theme
+<table>
+  <thead>
+    <tr>
+      <th>
+        Use
+      </th>
+      <th>
+        Color
+      </th>
+      <th>
+        Sample
+      </th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td>
+        <code>Background</code>
+      </td>
+      <td>
+        #FBFBFB
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/fbfbfb.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Foreground</code>
+      </td>
+      <td>
+        #403F53
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/403f53.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Cursor</code>
+      </td>
+      <td>
+        #90A7B2
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/90a7b2.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Active selection</code>
+      </td>
+      <td>
+        #E0E0E0
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/e0e0e0.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Inactive selection</code>
+      </td>
+      <td>
+        #EDEDED
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/ededed.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Search highlight</code>
+      </td>
+      <td>
+        #49D0C5
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/49d0c5.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Comment</code>
+      </td>
+      <td>
+        #939DBB
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/939dbb.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Constant</code>
+      </td>
+      <td>
+        #BC5454
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/bc5454.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Numbers</code>
+      </td>
+      <td>
+        #F78C6C
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/f78c6c.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Keywords</code>
+      </td>
+      <td>
+        #994CC3
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/994cc3.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Functions</code>
+      </td>
+      <td>
+        #4876D6
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/4876d6.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Quoted strings</code>
+      </td>
+      <td>
+        #C96765
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/c96765.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Support</code>
+      </td>
+      <td>
+        #4876D6
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/4876d6.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Language variables</code>
+      </td>
+      <td>
+        #319A9E
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/319a9e.png' height='24' width='39'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>Invalid construct</code>
+      </td>
+      <td>
+        #FF2C83
+      </td>
+      <td>
+        <img src='http://www.colorhexa.com/ff2c83.png' height='24' width='39'>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<p align="center">CSS</p>
-
-![preview css](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-css.png)
-
-<p align="center">HTML</p>
-
-![preview html](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-html.png)
-
-<p align="center">Markdown</p>
-
-![preview markdown](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-markdown.png)
-
-<p align="center">JSON</p>
-
-![preview json](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-json.png)
-
-<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Babel">Babel</a>)</p>
-
-![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-jsx.png)
-
-<p align="center">Javascript (<a href="https://packagecontrol.io/packages/Simple%20JSX">Simple JSX</a>)</p>
-
-![preview jsx](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/screenshot-syntax-simple-jsx.png)
-
-
+![preview light theme](https://raw.githubusercontent.com/VonHeikemen/night-owl-sublime-scheme/master/assets/light-theme/screenshot-syntax-js.png)
