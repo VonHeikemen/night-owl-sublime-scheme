@@ -6,11 +6,11 @@
     // Base colors
     "black": "#403F53",
     "white": "#FBFBFB",
-    "gray": "#939DBB",
+    "gray": "#989FB1",
     "blue": "#4876D6",
     "red": "#BC5454",
     "magenta": "#994CC3",
-    "cyan": "#0C969b",
+    "cyan": "#0C969B",
     "yellow": "#C96765",
 
     // Rarely used
