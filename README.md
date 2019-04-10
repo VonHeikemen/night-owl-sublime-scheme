@@ -324,10 +324,10 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Comment</code>
       </td>
       <td>
-        #939DBB
+        #989FB1
       </td>
       <td>
-        <img src='http://www.colorhexa.com/939dbb.png' height='24' width='39'>
+        <img src='http://www.colorhexa.com/989fb1.png' height='24' width='39'>
       </td>
     </tr>
     <tr>
