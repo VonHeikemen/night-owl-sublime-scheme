@@ -112,7 +112,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Inactive selection</code>
       </td>
       <td>
-        #7E57C25A
+        #7E57C2
       </td>
       <td>
         <img src='http://www.colorhexa.com/7e57c2.png' height='24' width='39'>
@@ -189,7 +189,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Quoted strings</code>
       </td>
       <td>
-        #ECC48DFF
+        #ECC48D
       </td>
       <td>
         <img src='http://www.colorhexa.com/ecc48d.png' height='24' width='39'>
@@ -313,7 +313,7 @@ Set the color scheme in your user settings *Preferences > Settings*:
         <code>Search highlight</code>
       </td>
       <td>
-        #93A1A16C
+        #93A1A1
       </td>
       <td>
         <img src='http://www.colorhexa.com/93a1a1.png' height='24' width='39'>
